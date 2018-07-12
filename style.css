@@ -1,0 +1,38 @@
+html {box-sizing:border-box; font-family:sans-serif;}
+*, *:before, *:after {box-sizing:inherit;}
+
+.calc {
+  display:flex;
+  width:240px;
+  flex-wrap:wrap;
+}
+
+.input {
+  font-size:18px;
+  width:180px;
+  height:60px;
+  border:1px solid #7abd6d;
+  outline:0;
+  background:rgb(91,170,77);
+  text-align:right;
+  color:white;
+}
+
+button {
+  cursor:pointer;
+  font-size:18px;
+  font-weight:lighter;
+  border:1px solid #7abd6d;
+  outline:0;
+  width:60px;
+  height:60px;
+  text-align:center;
+  color:white;
+  line-height:60px;
+  background:rgb(91,170,77);
+}
+
+.operation {
+  background:rgb(120,185,109);
+  color:#333;
+}
